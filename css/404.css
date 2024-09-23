@@ -1,0 +1,42 @@
+body {
+    font-family: Open Sans;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 11vw;
+    display: grid;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+height: 17vw;
+}
+
+#txt p {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+button {
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: #bb0000;
+    border: solid 4px #bb0000;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 1.9em;
+    width: 5em;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+button:hover {
+    transition: 300ms;
+    border-color: #bb0000;
+    color: #bb0000;
+    background-color: #FFC72C;
+}
