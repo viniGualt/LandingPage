@@ -92,6 +92,10 @@ footer {
 .contato {
     width: 100vw;
     background-color: #FFC72C;
+    font-size: 20px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
 }
 
 .contato ul {
@@ -99,11 +103,17 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
+    -ms-flex-align: center  ;
 }
 
 .contato ul, .contato li {
     list-style-type: none;
+    align-items: center;
+}
+
+li img {
+    display: block;
+    width: 60px;
 }
 
 .banner {
