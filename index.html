@@ -11,7 +11,7 @@
 
 <body>
     <header id="header">
-        <img id="logo" src="./img/mcdonalds.png" alt="Logo">
+        <a href=""><img id="logo" src="./img/mcdonalds.png" alt="Logo"></a>
         <nav id="navbar">
             <div class="navbar"><a href="#quemSomos">Quem Somos</a></div>
             <div class="navbar"><a href="./404.html">Lançamentos</a></div>
@@ -79,7 +79,9 @@
         </div>
 
         <div id="precinho"><img src="./img/precinho.jpg" style="width: 50vw;border-radius: 10em;"></div>
-        <div id="promoh1"><h1>Promoções da semana (por apenas R$14,99)</h1></div>
+        <div id="promoh1">
+            <h1>Promoções da semana (por apenas R$14,99)</h1>
+        </div>
         <table class="promotable">
             <tr>
                 <th>Segunda-feira</th>
@@ -106,8 +108,34 @@
     </section>
 
     <footer id="contato">
-
+        <div id="col1">
+            <img src="./img/mcdonalds.png">
+            <p style="color: white;text-align: center;">McDonalds Inc©</p>
+        </div>
+        <div id="social">
+            <h2>Nossas redes sociais:</h2>
+            <a id="facebook" target="_blank" href="https://www.facebook.com/McDonaldsBrasil/"><img src="./icons/facebook1.png"></a>
+            <a id="instagram" target="_blank" href="https://www.instagram.com/mcdonalds_br/"><img src="./icons/insta1.png"></a>
+            <a id="linkedin" target="_blank" href="https://www.linkedin.com/in/vinicius-gualtieri/"><img src="./icons/linkedin1.png"></a>
+        </div>
+        <div id="institucional">
+            <h2>Institucional</h2>
+                <li><a target="_blank" href="https://www.mcdonalds.com.br/quemsomos/trabalhe-conosco">Trabalhe Conosco</a></li>
+                <li><a target="_blank" href="https://www.mcdonalds.com.br/quemsomos/privacidade">Privacidade</a></li>
+                <li><a target="_blank" href="https://www.mcdonalds.com.br/quemsomos/franquias">Franquias</a></li>
+                <li><a target="_blank" href="https://www.mcdonalds.com.br/cardapio">Conheça nossa loja</a></li>
+        </div>
+        <div>
+            <form id="formEmail" action="enviar">
+                <label for="email">Digite seu e-mail para contato</label>
+                <input type="email" name="emailForm" id="emailForm" placeholder="Digite seu e-mail...">
+                <button type="submit">Enviar</button>
+            </form>
+            <span id="mensagemEmail" style="display: none;"></span>
+        </div>
     </footer>
 </body>
+
+<script src="./script/script.js"></script>
 
 </html>

@@ -11,28 +11,28 @@ Este projeto que consiste na criação de uma Landing Page utilizando os conheci
 
 Foram criadas 4 seções, sendo elas:
 
- - **Quem Somos** - Que consiste em uma breve apresentação da marca
+### <li> Quem Somos, que consiste em uma breve apresentação da marca </li>
 
 <div align="center">
-    <img src="/img/Readme/abaquemsomos.png" width="0px"> 
-</div>
+    <img src="/img/Readme/abaquemsomos.png"> 
+</div> <br>
 
- - **Lançamentos** - Para demonstrar o arquivo 404.html
-
-<div align="center">
-    <img src="/img/Readme/abaOops.png" width="0px"> 
-</div>
-
- - **Promoções** - Utilizando uma table com os dias da semana
+### <li> Lançamentos, para demonstrar o arquivo 404.html </li>
 
 <div align="center">
-    <img src="/img/Readme/abapromocoes.png" width="0px"> 
-</div>
+    <img src="/img/Readme/abaOops.png"> 
+</div> <br>
 
- - **Contato** - Sendo esse o footer da página com um formulário de contato
+### <li> Promoções, utilizando uma table com os dias da semana </li>
 
 <div align="center">
-    <img src="" width="0px"> 
-</div>
+    <img src="/img/Readme/abapromocoes.png"> 
+</div> <br>
+
+### <li> Contato, sendo esse o footer da página com um formulário de contato </li>
+
+<div align="center">
+    <img src="/img/Readme/abaFooter.png"> 
+</div> <br>
 
 <div align="center"><b>Projeto desenvolvido por Vinícius Gualtieri Moraes<b></div>
