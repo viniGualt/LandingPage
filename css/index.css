@@ -227,6 +227,12 @@ h1 {
     padding: 20px;
 }
 
+#promocoes {
+    background: rgb(254,0,0);
+    background: radial-gradient(circle, rgba(254,0,0,1) 0%, rgba(254,0,0,1) 53%, rgba(154,26,26,1) 100%);
+    padding-bottom: 2em;
+}
+
 #precinho {
     display: flex;
     justify-content: center;
@@ -244,18 +250,19 @@ td img {
     border-collapse: collapse;
     border-radius: 30px;
     border-style: hidden; 
-    box-shadow: 0 0 0 2px #DA291C;
+    box-shadow: 0 0 0 2px #FFC72C;
     margin-top: 1vw;
-    margin-bottom: 1vw;
+    background-color: #fff;
+    color: #fe0000;
 }
 
 .promotable th {
-    border-radius: 200px;
+    font-size: 4vh;
     min-width: 15vw;
 }
 
 td {
-    border: 1px solid #ccc;
+    border: 1px solid #FFC72C;
 }
 
 #tabelaimg {
