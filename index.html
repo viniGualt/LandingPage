@@ -15,8 +15,8 @@
         <nav id="navbar">
             <div class="navbar"><a href="#quemSomos">Quem Somos</a></div>
             <div class="navbar"><a href="./404.html">Lançamentos</a></div>
-            <div class="navbar"><a href="./404.html">Promoções</a></div>
-            <div class="navbar"><a href="./404.html">Contato</a></div>
+            <div class="navbar"><a href="#promocoes">Promoções</a></div>
+            <div class="navbar"><a href="#contato">Contato</a></div>
             <a href="./404.html"><button type="button" id="login">Login</button></a>
         </nav>
     </header>
@@ -43,22 +43,22 @@
     </div>
 
 
-    <div id="quemSomos">
-        <div id="fundo-quem-somos">
+    <section id="quemSomos">
+
+        <div class="divisao">
             <h1>Quem somos</h1>
         </div>
 
-        <section class="resumo">
+        <div class="resumo">
             <p>Na McDonald’s, ao proporcionar momentos bons e deliciosos, de forma simples e segura para todos, fazemos
                 bem
                 aos nossos clientes, equipe, produtores, franqueados e fornecedores. Mais do que estar na comunidade,
                 <b>fazemos parte de cada uma das dezenas de comunidades que nos acolhem, desde 1991, em todo o país.</b>
             </p>
-            <img src="./img/familia.jpg" alt="">
+            <img src="./img/familia.jpg">
+        </div>
 
-        </section>
-
-        <section class="valores">
+        <div class="valores">
             <img src="./img/istockphoto-1371448871-612x612.jpg" alt="Restaurante McDonalds">
             <h1>Nossos valores:</h1>
             <ul>
@@ -69,11 +69,43 @@
                 <li>Família</li>
                 <li>Honestidade</li>
             </ul>
-        </section>
+        </div>
 
-    </div>
+    </section>
 
-    <footer>
+    <section id="promocoes">
+        <div class="divisao">
+            <h1>Promoções</h1>
+        </div>
+
+        <div id="precinho"><img src="./img/precinho.jpg" style="width: 50vw;border: 1vw solid #541f09;border-radius: 2em;"></div>
+        <div id="promoh1"><h1>Promoções da semana (por apenas R$14,99)</h1></div>
+        <table class="promotable">
+            <tr>
+                <th>Segunda-feira</th>
+                <th>Terça-feira</th>
+                <th>Quarta-feira</th>
+                <th>Quinta-feira</th>
+                <th>Sexta-feira</th>
+            </tr>
+            <tr id="tabelaimg">
+                <td><img src="./img/Lanches/McChicken.png"></td>
+                <td><img src="./img/Lanches/mc-crispy-chicken-melt-and-bacon.png"></td>
+                <td><img src="./img/Lanches/BigMac.png"></td>
+                <td><img src="./img/Lanches/Novo Brabo Melt Onion Rings.png"></td>
+                <td><img src="./img/Lanches/QuarteirãoComQueijo.png"></td>
+            </tr>
+            <tr>
+                <td>Mc Chicken</td>
+                <td>Mc Crispy Chicken</td>
+                <td>Big Mac em Dobro</td>
+                <td>Brabo Melt Onion Rings</td>
+                <td>Quarteirão com Queijo</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer id="contato">
 
     </footer>
 </body>

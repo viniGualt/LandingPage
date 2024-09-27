@@ -140,14 +140,14 @@ h1 {
     background: radial-gradient(circle, rgba(153,59,20,1) 0%, rgba(120,41,8,1) 51%, rgba(84,31,9,1) 100%);
 }
 
-#fundo-quem-somos {
+.divisao {
     background-color: #DA291C;
     width: 100%;;
     padding: 10px;
     border-bottom: 3px solid #bb0000;
 }
 
-#fundo-quem-somos h1 {
+.divisao h1 {
     color: #fff;
     text-align: center;
 }
@@ -222,5 +222,46 @@ h1 {
     color: #DA291C;
 }
 
+#promoh1 {
+    text-align: center;
+    padding: 20px;
+}
+
+#precinho {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+td img {
+    width: 13vw;
+}
+
+.promotable {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 30px;
+    border-style: hidden; 
+    box-shadow: 0 0 0 2px #DA291C;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.promotable th {
+    border-radius: 200px;
+    min-width: 15vw;
+}
+
+td {
+    border: 1px solid #ccc;
+}
+
+#tabelaimg {
+    background-color: #FFC72C;
+}
+
 footer {
+    color: blue;
 }
